@@ -3,13 +3,25 @@
   <head>
     <meta charset="utf-8">
     <title></title>
-    <span style="background-color:yellow;" >
+    <span style="background-color: ivory;" >
       <b> Blender: Spanish to English</b> <br> JavaScript Version <br> 
   </head>
   <body style="background-image: url(r.jpg); color:black; text-align: center; font-family:'Andale Mono'; font-size: 2.5em; background-repeat: no-repeat; background-size: cover;">
     <label> Input Spanish Text: </label>
+    <style> .button {
+      background-color: green;
+      border: none;
+      color: white;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+    }
+    </style>
  <input type="Your Name" name="name" id="name" value="">
-<button type="button" name="button" onclick="printname()">Click here</button>
+<button class="button" type="button" name="button" onclick="printname()">Click here</button>
  <label id="printHello"></label>
  <script  charset="utf-8">
     function printname(){
